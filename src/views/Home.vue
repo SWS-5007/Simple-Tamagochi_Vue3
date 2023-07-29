@@ -4,9 +4,11 @@ import GigaVue from "@/components/GigaVue.vue";
 
 export default {
   name: "Home",
+
   components: {
     GigaVue
   },
+
   setup() {
     const state = reactive({
       petName: "",
@@ -35,7 +37,7 @@ export default {
 
 <template>
   <div class="home">
-    <h1>Giga-Vue</h1>
+    <h1>Tamagochi-Vue</h1>
     <section>
       <GigaVue :petName="petName" :petMood="petMood" />
     </section>
